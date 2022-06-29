@@ -1,1 +1,9 @@
+manga = {
+    'one punch man': 50,
+    "bknh": 240,
+    'one piece': 1055,
+    'dragon ball': 890
+}
 
+for livro in manga:
+ print(livro, 'tem:',manga[livro], 'páginas')
